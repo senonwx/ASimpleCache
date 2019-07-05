@@ -18,13 +18,13 @@ ASimpleCache
  *  3：可以设置缓存超时时间，缓存超时自动失效，并被删除。
  *  4：支持多进程。
 
-##3、它在android中可以用在哪些场景？
+## 3、它在android中可以用在哪些场景？
 * 1、替换SharePreference当做配置文件
 * 2、可以缓存网络请求数据，比如oschina的android客户端可以缓存http请求的新闻内容，缓存时间假设为1个小时，超时后自动失效，让客户端重新请求新的数据，减少客户端流量，同时减少服务器并发量。
 * 3、您来说...
 
 
-##4、如何使用 ASimpleCache？
+## 4、如何使用 ASimpleCache？
 以下有个小的demo，希望您能喜欢：
 
 ```java
@@ -41,7 +41,7 @@ String value = mCache.getAsString("test_key1");
 
 更多示例请见Demo
 
-#关于作者michael
+# 关于作者michael
 * 屌丝程序员一枚，喜欢开源。
 * 个人博客：[http://www.yangfuhai.com](http://www.yangfuhai.com)
 * 交流QQ群 ： 192341294（已满） 246710918（未满）
